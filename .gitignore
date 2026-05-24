@@ -6,3 +6,4 @@ data/raw/
 data/qdrant_storage/
 data/eval/eval_set.jsonl
 .DS_Store
+*.egg-info/

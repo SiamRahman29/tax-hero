@@ -1,0 +1,5 @@
+{"question": "What is the tax-free income threshold for an individual taxpayer for the current assessment year?", "expected_source": "income_tax_act_2023.pdf", "expected_section": "Section 76", "category": "factual_current"}
+{"question": "ব্যক্তি করদাতার জন্য সর্বনিম্ন করমুক্ত আয়সীমা কত?", "expected_source": "income_tax_act_2023.pdf", "expected_section": "ধারা ৭৬", "category": "factual_current_bn"}
+{"question": "How did the most recent Finance Act change the senior citizen tax-free threshold?", "expected_source": "finance_act_2024.pdf", "expected_section": "", "category": "temporal"}
+{"question": "Show me the income tax slab rates for individuals for AY 2024-25.", "expected_source": "income_tax_act_2023.pdf", "expected_section": "Schedule", "category": "tabular"}
+{"question": "If a freelancer in Bangladesh earns income from abroad through Payoneer, what is the tax treatment?", "expected_source": "income_tax_act_2023.pdf", "expected_section": "", "category": "multi_hop"}

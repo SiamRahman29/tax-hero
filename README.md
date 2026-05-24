@@ -29,7 +29,7 @@ get added only when the eval set says they matter — not before.
 ```
 .
 ├── config.py                    Central config; reads .env
-├── requirements.txt
+├── pyproject.toml
 ├── .env.example                 Copy to .env and set ANTHROPIC_API_KEY
 ├── src/
 │   ├── parsing.py               PDF → Blocks (text + tables)
@@ -52,7 +52,7 @@ get added only when the eval set says they matter — not before.
 
 ```bash
 python -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
+pip install -e .
 cp .env.example .env
 # edit .env and set ANTHROPIC_API_KEY
 
